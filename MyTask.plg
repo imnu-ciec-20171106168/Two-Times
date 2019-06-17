@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyTask - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ASUS\AppData\Local\Temp\RSPACAE.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MyTask.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"C:\Program Files (x86)\Microsoft Visual Studio\MyProject\MyTask\MyTask.cpp"
+"C:\Program Files (x86)\Microsoft Visual Studio\MyProject\MyTask\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\Users\ASUS\AppData\Local\Temp\RSPACAE.tmp" 
+Creating temporary file "C:\Users\ASUS\AppData\Local\Temp\RSPACAF.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/MyTask.pdb" /debug /machine:I386 /out:"Debug/MyTask.exe" /pdbtype:sept 
+".\Debug\MyTask.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MyTaskDoc.obj"
+".\Debug\MyTaskView.obj"
+".\Debug\MyTask.res"
+".\Debug\RightView.obj"
+]
+Creating command line "link.exe @C:\Users\ASUS\AppData\Local\Temp\RSPACAF.tmp"
+<h3>Output Window</h3>
+Compiling...
+MyTask.cpp
+c:\program files (x86)\microsoft visual studio\myproject\mytask\mytaskview.h(21) : error C2143: syntax error : missing ';' before '*'
+c:\program files (x86)\microsoft visual studio\myproject\mytask\mytaskview.h(21) : error C2501: 'CMyTaskDoc' : missing storage-class or type specifiers
+c:\program files (x86)\microsoft visual studio\myproject\mytask\mytaskview.h(21) : error C2501: 'GetDocument' : missing storage-class or type specifiers
+MainFrm.cpp
+c:\program files (x86)\microsoft visual studio\myproject\mytask\mytaskview.h(21) : error C2143: syntax error : missing ';' before '*'
+c:\program files (x86)\microsoft visual studio\myproject\mytask\mytaskview.h(21) : error C2501: 'CMyTaskDoc' : missing storage-class or type specifiers
+c:\program files (x86)\microsoft visual studio\myproject\mytask\mytaskview.h(21) : error C2501: 'GetDocument' : missing storage-class or type specifiers
+C:\Program Files (x86)\Microsoft Visual Studio\MyProject\MyTask\MainFrm.cpp(26) : error C2065: 'ID_INDICATOR_INFO' : undeclared identifier
+C:\Program Files (x86)\Microsoft Visual Studio\MyProject\MyTask\MainFrm.cpp(133) : error C2039: 'm_pStatus' : is not a member of 'CMyTaskView'
+        c:\program files (x86)\microsoft visual studio\myproject\mytask\mytaskview.h(13) : see declaration of 'CMyTaskView'
+C:\Program Files (x86)\Microsoft Visual Studio\MyProject\MyTask\MainFrm.cpp(133) : error C2227: left of '->count' must point to class/struct/union
+C:\Program Files (x86)\Microsoft Visual Studio\MyProject\MyTask\MainFrm.cpp(134) : error C2039: 'm_pManager' : is not a member of 'CMyTaskView'
+        c:\program files (x86)\microsoft visual studio\myproject\mytask\mytaskview.h(13) : see declaration of 'CMyTaskView'
+C:\Program Files (x86)\Microsoft Visual Studio\MyProject\MyTask\MainFrm.cpp(134) : error C2227: left of '->over' must point to class/struct/union
+C:\Program Files (x86)\Microsoft Visual Studio\MyProject\MyTask\MainFrm.cpp(138) : error C2039: 'm_pStatus' : is not a member of 'CMyTaskView'
+        c:\program files (x86)\microsoft visual studio\myproject\mytask\mytaskview.h(13) : see declaration of 'CMyTaskView'
+C:\Program Files (x86)\Microsoft Visual Studio\MyProject\MyTask\MainFrm.cpp(138) : error C2227: left of '->player' must point to class/struct/union
+C:\Program Files (x86)\Microsoft Visual Studio\MyProject\MyTask\MainFrm.cpp(138) : error C2228: left of '.name' must have class/struct/union type
+C:\Program Files (x86)\Microsoft Visual Studio\MyProject\MyTask\MainFrm.cpp(139) : error C2039: 'm_pStatus' : is not a member of 'CMyTaskView'
+        c:\program files (x86)\microsoft visual studio\myproject\mytask\mytaskview.h(13) : see declaration of 'CMyTaskView'
+C:\Program Files (x86)\Microsoft Visual Studio\MyProject\MyTask\MainFrm.cpp(139) : error C2227: left of '->player' must point to class/struct/union
+C:\Program Files (x86)\Microsoft Visual Studio\MyProject\MyTask\MainFrm.cpp(139) : error C2228: left of '.name' must have class/struct/union type
+Generating Code...
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+MyTask.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
