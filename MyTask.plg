@@ -6,31 +6,40 @@
 --------------------Configuration: MyTask - Win32 Debug--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\Users\ASUS\AppData\Local\Temp\RSPACAE.tmp" with contents
+Creating command line "rc.exe /l 0x804 /fo"Debug/MyTask.res" /d "_DEBUG" /d "_AFXDLL" "C:\Program Files (x86)\Microsoft Visual Studio\MyProject\MyTask\MyTask.rc"" 
+Creating temporary file "C:\Users\ASUS\AppData\Local\Temp\RSPE356.tmp" with contents
 [
-/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MyTask.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
-"C:\Program Files (x86)\Microsoft Visual Studio\MyProject\MyTask\MyTask.cpp"
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MyTask.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
 "C:\Program Files (x86)\Microsoft Visual Studio\MyProject\MyTask\MainFrm.cpp"
+"C:\Program Files (x86)\Microsoft Visual Studio\MyProject\MyTask\MyTask.cpp"
+"C:\Program Files (x86)\Microsoft Visual Studio\MyProject\MyTask\MyTaskDoc.cpp"
+"C:\Program Files (x86)\Microsoft Visual Studio\MyProject\MyTask\MyTaskView.cpp"
+"C:\Program Files (x86)\Microsoft Visual Studio\MyProject\MyTask\RightView.cpp"
 ]
-Creating command line "cl.exe @C:\Users\ASUS\AppData\Local\Temp\RSPACAE.tmp" 
-Creating temporary file "C:\Users\ASUS\AppData\Local\Temp\RSPACAF.tmp" with contents
+Creating command line "cl.exe @C:\Users\ASUS\AppData\Local\Temp\RSPE356.tmp" 
+Creating temporary file "C:\Users\ASUS\AppData\Local\Temp\RSPE357.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MyTask.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Program Files (x86)\Microsoft Visual Studio\MyProject\MyTask\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ASUS\AppData\Local\Temp\RSPE357.tmp" 
+Creating temporary file "C:\Users\ASUS\AppData\Local\Temp\RSPE358.tmp" with contents
 [
 /nologo /subsystem:windows /incremental:yes /pdb:"Debug/MyTask.pdb" /debug /machine:I386 /out:"Debug/MyTask.exe" /pdbtype:sept 
-".\Debug\MyTask.obj"
-".\Debug\StdAfx.obj"
 ".\Debug\MainFrm.obj"
+".\Debug\MyTask.obj"
 ".\Debug\MyTaskDoc.obj"
 ".\Debug\MyTaskView.obj"
-".\Debug\MyTask.res"
 ".\Debug\RightView.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MyTask.res"
 ]
-Creating command line "link.exe @C:\Users\ASUS\AppData\Local\Temp\RSPACAF.tmp"
+Creating command line "link.exe @C:\Users\ASUS\AppData\Local\Temp\RSPE358.tmp"
 <h3>Output Window</h3>
+Compiling resources...
 Compiling...
-MyTask.cpp
-c:\program files (x86)\microsoft visual studio\myproject\mytask\mytaskview.h(21) : error C2143: syntax error : missing ';' before '*'
-c:\program files (x86)\microsoft visual studio\myproject\mytask\mytaskview.h(21) : error C2501: 'CMyTaskDoc' : missing storage-class or type specifiers
-c:\program files (x86)\microsoft visual studio\myproject\mytask\mytaskview.h(21) : error C2501: 'GetDocument' : missing storage-class or type specifiers
+StdAfx.cpp
+Compiling...
 MainFrm.cpp
 c:\program files (x86)\microsoft visual studio\myproject\mytask\mytaskview.h(21) : error C2143: syntax error : missing ';' before '*'
 c:\program files (x86)\microsoft visual studio\myproject\mytask\mytaskview.h(21) : error C2501: 'CMyTaskDoc' : missing storage-class or type specifiers
@@ -50,6 +59,13 @@ C:\Program Files (x86)\Microsoft Visual Studio\MyProject\MyTask\MainFrm.cpp(139)
         c:\program files (x86)\microsoft visual studio\myproject\mytask\mytaskview.h(13) : see declaration of 'CMyTaskView'
 C:\Program Files (x86)\Microsoft Visual Studio\MyProject\MyTask\MainFrm.cpp(139) : error C2227: left of '->player' must point to class/struct/union
 C:\Program Files (x86)\Microsoft Visual Studio\MyProject\MyTask\MainFrm.cpp(139) : error C2228: left of '.name' must have class/struct/union type
+MyTask.cpp
+c:\program files (x86)\microsoft visual studio\myproject\mytask\mytaskview.h(21) : error C2143: syntax error : missing ';' before '*'
+c:\program files (x86)\microsoft visual studio\myproject\mytask\mytaskview.h(21) : error C2501: 'CMyTaskDoc' : missing storage-class or type specifiers
+c:\program files (x86)\microsoft visual studio\myproject\mytask\mytaskview.h(21) : error C2501: 'GetDocument' : missing storage-class or type specifiers
+MyTaskDoc.cpp
+MyTaskView.cpp
+RightView.cpp
 Generating Code...
 Ö´ÐÐ cl.exe Ê±³ö´í.
 

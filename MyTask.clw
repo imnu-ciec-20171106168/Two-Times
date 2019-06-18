@@ -16,9 +16,9 @@ Class4=CMainFrame
 
 ResourceCount=4
 Resource1=IDD_RIGHT_VIEW
-Resource2=IDD_ABOUTBOX
+Resource2=IDR_MAINFRAME
 Class5=CAboutDlg
-Resource3=IDR_MAINFRAME
+Resource3=IDD_ABOUTBOX
 Class6=CRightView
 Resource4=IDD_DIALOG2
 
